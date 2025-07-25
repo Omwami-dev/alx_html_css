@@ -5,7 +5,7 @@ Welcome to my **Advanced CSS** project collection! This repository contains all 
 
 ---
 
-## 🧠 What I Learned so far
+## 🧠 What I have learnt so far
 
 In this directory, I practiced and implemented advanced CSS concepts including:
 

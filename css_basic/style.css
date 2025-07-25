@@ -2,17 +2,34 @@ body{
     display:flex;
     flex-direction: column;
      height: 100vh;
+     color: green;
+     background-color: beige;
+     border: 0cqw;
+    
 }
 main{
     display: flex;
     flex-direction: row ;
     flex: auto;
+    
 }
 article{
     flex: 2;
     overflow-y: auto;
+
 }
 aside{
     flex: 1;
     overflow-y: auto;
+}
+p{
+    font-size: larger;
+
+}
+a{
+    color: blueviolet;
+}
+.logo {
+  font-size: larger;
+  padding-right: 1rem;
 }

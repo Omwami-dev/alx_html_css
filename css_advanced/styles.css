@@ -120,5 +120,46 @@ header {
   background-color: #a44bd8;
   display: flex;
   flex-wrap: wrap;
-  
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 0 4px 4px 0;
+}
+.quotes{
+  font-size: 18px;
+  color: white;
+  line-height: 1.6;
+  margin: 0 0 15px 0;
+}
+.quote-author{
+  content: open-quote;
+  font-size: 20px;
+  font-style: italic;
+  text-align: left;
+}
+
+.author-name{
+  text-align: left;
+  font-weight: bold;
+}
+.author-title{
+  display: block;
+  margin-top: 4px;
+}
+.tutorials{
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+
+}
+.tutorials h2 {
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 90vw;
+  white-space: normal;
+  word-break: break-word;
+
 }

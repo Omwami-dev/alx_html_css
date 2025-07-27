@@ -150,16 +150,165 @@ header {
   display: flex;
   align-items: center;
   text-align: center;
-
+  justify-content: center;
+  background-position: center;
+  
 
 }
 .tutorials h2 {
   font-size: 60px;
+  display: flex;
   font-weight: bold;
   text-align: center;
   margin: 0 auto;
   max-width: 90vw;
   white-space: normal;
   word-break: break-word;
+  flex-direction: column;
 
+
+}
+.tutorial-category {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.tutorial-category h2 {
+  font-size: 22px;
+  color: #3498db;
+  margin: 0 0 10px 0;
+}
+.tutorial-card {
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+.tutorial-card h3 {
+  font-size: 18px;
+  color: #2c3e50;
+  margin: 0 0 5px 0;
+}
+.tutorial-card h4 {
+  font-size: 16px;
+   margin: 0 0 10px 0;
+}
+
+.tutorial-card p {
+  font-size: 14px;
+  color: #7f8c8d;
+  margin: 0;
+}
+.duration {
+  display: inline-block;
+  background-color: #a44bd8;
+  color: white;
+  border-radius: 3px;
+  font-size: 12px;
+  margin-right: 5px;
+}
+.membership{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.member{
+  top: 20px;
+  left: 50%;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+}
+.membership-items {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.membership-items div {
+  max-width: 200px;
+}
+.membership-items img {
+  width: 10;
+  height: auto;
+}
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.faq-section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+.faq-heading {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.faq-columns {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.faq-column {
+  max-width: 400px;
+}
+.faq-item {
+  margin-bottom: 30px;
+  text-align: left;
+}
+.faq-item h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.faq-item p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 40px 20px;}
+.footer-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.footer-top {
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-logo {
+  width: 120px;
+}
+
+.footer-socials i {
+  font-size: 24px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footer-socials i:hover {
+  color: #00aced;
+}
+
+.footer-copy {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #aaa;
 }

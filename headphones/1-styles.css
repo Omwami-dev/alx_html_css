@@ -1,0 +1,94 @@
+*, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* VARIABLES */
+        :root {
+            --primary-color: #FF6565;
+            --text-color: #333;
+            --bg-color: #fff;
+            --max-width: 1000px;
+            --font-family: 'Source Sans Pro', sans-serif;
+        }
+
+        body {
+            font-family: var(--font-family);
+            color: var(--text-color);
+            background-color: var(--bg-color);
+        }
+
+        /* CONTAINER */
+        .container {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        /* HEADER */
+        header {
+            padding: 20px 0px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header nav a {
+            text-decoration: none;
+            color: var(--text-color);
+            margin-left: 20px;
+            font-weight: bold;
+        }
+
+        header nav a:hover,
+        header nav a:active {
+            color: var(--primary-color);
+        }
+
+        /* HERO SECTION */
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background: url('images/headphones_hero_1.jpg') no-repeat center/cover;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+
+        .hero button {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .hero button:hover,
+        .hero button:active {
+            opacity: 0.9;
+        }
+
+        /* MOBILE VIEW */
+        @media (max-width: 480px) {
+            header {
+                flex-direction: column;
+            }
+            .hero {
+                background: url('images/headphones_hero_2.jpg') no-repeat center/cover;
+                padding: 40px 15px;
+            }
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+        }
